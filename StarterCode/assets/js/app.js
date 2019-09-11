@@ -103,11 +103,11 @@ var xLinearScale = d3.scaleLinear()
 
         // Initialize tool tip
   
-  /*var toolTip = d3.tip()
+  var toolTip = d3.tip()
   .attr("class", "d3-tip")
   .offset([80, -60])
   .html(function(d) {
-      return (`${d.abbr}<br>Healthcare: ${d.healthcare}%<br>Poverty: ${d.poverty}% `);
+      return (d);
                     });
 
 
@@ -129,7 +129,7 @@ d3.select(this).style("stroke", "#323232");
 toolTip.hide(d);
 // Remove highlight
 d3.select(this).style("stroke", "#e3e3e3");
-});*/
+});
 
 
 });
