@@ -91,7 +91,7 @@ var xLinearScale = d3.scaleLinear()
         .attr("x", 0 - (height / 2))
         .attr("dy", "1em")
         .classed("aText", true)
-        .text("Lacking Healthcare (%)");
+        .text("Lacks Healthcare (%)");
 
     // x axis
     chartGroup.append("text")
@@ -99,7 +99,7 @@ var xLinearScale = d3.scaleLinear()
         .attr("x", width / 2)
         .attr("dy", "1em")
         .classed("aText", true)
-        .text("Poverty Rate (%)");
+        .text("In Poverty (%)");
 
         // Initialize tool tip
   
